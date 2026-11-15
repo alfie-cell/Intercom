@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE68B72E2F9C1E37268890D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EC75FC372E3D74E948DD2A /* Assets.xcassets */; };
+		8D184BE51EF0F55B593FEC56 /* HoldToSpeakButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6024101270EA617BE6355747 /* HoldToSpeakButton.swift */; };
+		A3A9C35792AF06A5FEF2EDFE /* IntercomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC449E26C79BBDF008A2B540 /* IntercomApp.swift */; };
+		A7324AA26C04A88DE1AE8379 /* MenuContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AE0A55A8368F4A00064177 /* MenuContent.swift */; };
+		B4FE17DF6EABD25510F1444B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4893F21C88BF2450280364C5 /* SettingsView.swift */; };
+		E7E45415003FF7C91CAC3CF9 /* IntercomCore in Frameworks */ = {isa = PBXBuildFile; productRef = A1A1E4C537F152CCD15FC91A /* IntercomCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07CE0E2F4C89E8B7302B138A /* IntercomCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = IntercomCore; path = IntercomCore; sourceTree = SOURCE_ROOT; };
+		4893F21C88BF2450280364C5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6024101270EA617BE6355747 /* HoldToSpeakButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoldToSpeakButton.swift; sourceTree = "<group>"; };
+		62EC75FC372E3D74E948DD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		795F4C963C4ABF97BB178850 /* Intercom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Intercom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98AE0A55A8368F4A00064177 /* MenuContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuContent.swift; sourceTree = "<group>"; };
+		FC449E26C79BBDF008A2B540 /* IntercomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntercomApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		210C530D64223C0E90E9BA02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E45415003FF7C91CAC3CF9 /* IntercomCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F7700C4DF2BE63BD575900 = {
+			isa = PBXGroup;
+			children = (
+				35F4278004AAD5499FCA5FC3 /* MacApp */,
+				CB0EC750CCDF36CB31971201 /* Packages */,
+				58379A3F6E33D7571A23BA84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35F4278004AAD5499FCA5FC3 /* MacApp */ = {
+			isa = PBXGroup;
+			children = (
+				62EC75FC372E3D74E948DD2A /* Assets.xcassets */,
+				6024101270EA617BE6355747 /* HoldToSpeakButton.swift */,
+				FC449E26C79BBDF008A2B540 /* IntercomApp.swift */,
+				98AE0A55A8368F4A00064177 /* MenuContent.swift */,
+				4893F21C88BF2450280364C5 /* SettingsView.swift */,
+			);
+			path = MacApp;
+			sourceTree = "<group>";
+		};
+		58379A3F6E33D7571A23BA84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				795F4C963C4ABF97BB178850 /* Intercom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB0EC750CCDF36CB31971201 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				07CE0E2F4C89E8B7302B138A /* IntercomCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9364286165B2E83AB961BBC /* Intercom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D70A2F3EFB4A5C58D3965FD /* Build configuration list for PBXNativeTarget "Intercom" */;
+			buildPhases = (
+				87BABD81BBAFE84E9757904B /* Sources */,
+				098F348A026A0BCF3D34AE41 /* Resources */,
+				210C530D64223C0E90E9BA02 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Intercom;
+			packageProductDependencies = (
+				A1A1E4C537F152CCD15FC91A /* IntercomCore */,
+			);
+			productName = Intercom;
+			productReference = 795F4C963C4ABF97BB178850 /* Intercom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB6135F16472A4B579A0231 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F9364286165B2E83AB961BBC = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = C480F95FA0C38A74FFB01804 /* Build configuration list for PBXProject "Intercom" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 08F7700C4DF2BE63BD575900;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				2AEE283DD67746CB13585E13 /* XCLocalSwiftPackageReference "IntercomCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 58379A3F6E33D7571A23BA84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9364286165B2E83AB961BBC /* Intercom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		098F348A026A0BCF3D34AE41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE68B72E2F9C1E37268890D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87BABD81BBAFE84E9757904B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D184BE51EF0F55B593FEC56 /* HoldToSpeakButton.swift in Sources */,
+				A3A9C35792AF06A5FEF2EDFE /* IntercomApp.swift in Sources */,
+				A7324AA26C04A88DE1AE8379 /* MenuContent.swift in Sources */,
+				B4FE17DF6EABD25510F1444B /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17F11D7114F07A7C2A2AE7A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1B1A6A3FD6E373F53EF7BCBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacApp/Intercom.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.intercom.Intercom;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		260844BC1B21744C65364E1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		47C805FB7A158D31FE1A6F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MacApp/Intercom.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.intercom.Intercom;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D70A2F3EFB4A5C58D3965FD /* Build configuration list for PBXNativeTarget "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B1A6A3FD6E373F53EF7BCBC /* Debug */,
+				47C805FB7A158D31FE1A6F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C480F95FA0C38A74FFB01804 /* Build configuration list for PBXProject "Intercom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				260844BC1B21744C65364E1D /* Debug */,
+				17F11D7114F07A7C2A2AE7A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		2AEE283DD67746CB13585E13 /* XCLocalSwiftPackageReference "IntercomCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = IntercomCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1A1E4C537F152CCD15FC91A /* IntercomCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = IntercomCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FEB6135F16472A4B579A0231 /* Project object */;
+}

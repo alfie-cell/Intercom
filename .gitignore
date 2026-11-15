@@ -1,0 +1,21 @@
+.DS_Store
+
+# Apple
+apple/build/
+apple/build-release/
+apple/IntercomCore/.build/
+apple/IntercomCore/.swiftpm/
+xcuserdata/
+
+# Android
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+
+# Python
+__pycache__/
+dist/

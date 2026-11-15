@@ -1,0 +1,40 @@
+name: Intercom
+options:
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+
+packages:
+  IntercomCore:
+    path: IntercomCore
+
+targets:
+  Intercom:
+    type: application
+    platform: macOS
+    sources:
+      - path: MacApp
+        excludes:
+          - "Info.plist"
+          - "*.entitlements"
+    dependencies:
+      - package: IntercomCore
+    scheme:
+      testTargets: []
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.intercom.Intercom
+        INFOPLIST_FILE: MacApp/Info.plist
+        CODE_SIGN_ENTITLEMENTS: MacApp/Intercom.entitlements
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGN_IDENTITY: "-"
+        ENABLE_HARDENED_RUNTIME: YES
+        SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+        GENERATE_INFOPLIST_FILE: NO
+      configs:
+        Release:
+          CODE_SIGN_IDENTITY: "Developer ID Application"
+          OTHER_CODE_SIGN_FLAGS: --timestamp
+          CODE_SIGN_INJECT_BASE_ENTITLEMENTS: NO
